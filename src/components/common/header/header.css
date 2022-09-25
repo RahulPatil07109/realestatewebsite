@@ -1,0 +1,87 @@
+header {
+  background-color: #fff;
+  height: 10vh;
+  box-shadow: 0 5px 30px rgb(0 22 84 / 10%);
+  padding: 15px 0;
+  position: sticky;
+  top: 0;
+  z-index: 99999;
+}
+header img {
+  width: 143px;
+}
+header a {
+  margin-left: 30px;
+  transition: 0.5s;
+  font-weight: 500;
+  padding: 2px 6px;
+  border-radius: 4px;
+}
+header a:hover {
+  color: #6f64ef;
+  background-color: #6f64ef36;
+}
+header span {
+  width: auto;
+  padding: 0px 6px;
+  background: #6f64ef;
+  border-radius: 50px;
+  color: #ffffff;
+  margin-right: 4px;
+  font-weight: 400;
+}
+header h4 {
+  font-weight: 500;
+  margin-right: 20px;
+}
+header .toggle {
+  display: none;
+}
+.btn1 {
+  padding: 12px 27px;
+  margin: 5px;
+  background-color: #6f64ef;
+}
+.btn11 {
+  padding: 12px 27px;
+  margin: 5px;
+  border: 3px;
+  background-color: rgba(190, 188, 188, 0.507);
+
+  color: black;
+  border: black;
+}
+@media screen and (max-width: 768px) {
+  header {
+    padding: 0;
+  }
+  header img {
+    margin-top: 15px;
+  }
+  header .button {
+    display: none;
+  }
+  header .nav .flex {
+    display: none;
+  }
+  header .toggle {
+    display: block;
+    /* margin-top: 20px; */
+    position: absolute;
+    right: 5%;
+    top: 24%;
+  }
+  header .small {
+    position: absolute;
+    top: 10vh;
+    left: 0;
+    width: 100%;
+    background-color: #6f64ef;
+    padding: 20px;
+  }
+  header li a {
+    display: inline-block;
+    margin-bottom: 20px;
+    color: #fff;
+  }
+}
